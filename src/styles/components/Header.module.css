@@ -1,0 +1,44 @@
+.logo{
+    margin-left: 10%;
+}
+
+.logo img{
+    width: 90%;
+}
+
+.links{
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.links:hover{
+    color: var(--text-color-secundaria);
+    transition: 0.5s;
+}
+.links:visited{
+    color: var(--text-color);
+}
+
+.buttonHeader{
+    background-color: var(--color-primaria);
+    padding: 10px 17px 10px 17px;
+    color: var(--text-color);
+    border: none;
+}
+
+.buttonHeader:hover{
+    background-color: var(--color-secundaria);
+    transition: 1s;
+}
+.buttonHeader:focus{
+    background-color: var(--color-primaria) !important;
+}
+
+@media screen and (max-width: 768px){
+    .linksHeader li a{
+        font-size: 16px;
+        padding: 10;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+}
