@@ -3,6 +3,7 @@ import styles from "@/styles/components/Footer.module.css";
 export default function Footer(){
 
     var date = new Date();
+    
     return(
         <div className="container">
             <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
