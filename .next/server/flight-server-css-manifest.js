@@ -1,0 +1,14 @@
+self.__RSC_CSS_MANIFEST={
+  "cssImports": {
+    "C:\\Users\\WillBayers\\Desktop\\nextjs-tailwind-course-details-page-main\\src\\app\\layout.tsx": [
+      "C:\\Users\\WillBayers\\Desktop\\nextjs-tailwind-course-details-page-main\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.tsx\",\"import\":\"Roboto\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"300\",\"400\",\"500\",\"700\",\"900\"],\"display\":\"swap\"}],\"variableName\":\"roboto\"}",
+      "C:\\Users\\WillBayers\\Desktop\\nextjs-tailwind-course-details-page-main\\src\\app\\globals.css"
+    ]
+  },
+  "cssModules": {
+    "C:\\Users\\WillBayers\\Desktop\\nextjs-tailwind-course-details-page-main\\src\\app\\page": [
+      "C:\\Users\\WillBayers\\Desktop\\nextjs-tailwind-course-details-page-main\\src\\app\\globals.css",
+      "C:\\Users\\WillBayers\\Desktop\\nextjs-tailwind-course-details-page-main\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.tsx\",\"import\":\"Roboto\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"300\",\"400\",\"500\",\"700\",\"900\"],\"display\":\"swap\"}],\"variableName\":\"roboto\"}"
+    ]
+  }
+}

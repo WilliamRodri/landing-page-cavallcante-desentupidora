@@ -1,25 +1,59 @@
-import styles from "@/styles/components/Footer.module.css";
+import { Typography, Button, Input } from "@material-tailwind/react";
 
-export default function Footer(){
+const LINKS = [
+  {
+    title: "Menu Principal",
+    items: [
+      {text: "Início", link: "/"},
+      {text: "Serviços", link: "#servicos"},
+      {text: "Sobre nós", link: "#sobre"},
+      {text: "Entre em contato", link: "https://api.whatsapp.com/send?phone=5585985477461&text=Ol%C3%A1%20vim%20pelo%20site%20e%20desejo%20fazer%20um%20or%C3%A7amento!"}
+    ],
+  }
+];
 
-    var date = new Date();
-    
-    return(
-        <div className="container">
-            <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-                <div className="col-md-4 d-flex align-items-center">
-                    <p className={`mb-3 mb-md-0 ${styles.creditFooter}`}>©Copyright {date.getFullYear()} <a href="/">Desentupidora Cavallcante</a></p>
-                </div>
+const CURRENT_YEAR = new Date().getFullYear();
 
-                <ul className={`nav col-md-4 justify-content-center list-unstyled d-flex ${styles.linksFooter}`}>
-                    <li className="ms-3"><a href="#"><i className="bi bi-whatsapp"></i></a></li>
-                    <li className="ms-3"><a href="#"><i className="bi bi-instagram"></i></a></li>
-                </ul>
-
-                <div className={`col-md-4 text-end ${styles.creditCreated}`}>
-                    <p>Created by <a href="https://github.com/WilliamRodri" target="_blank">BlackAndWhiteSoft</a></p>
-                </div>
-            </footer>
+export function Footer() {
+  return (
+    <footer className="px-8 pt-24 pb-8">
+      <div className="container max-w-6xl flex flex-col mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-3 !w-full ">
+          <div className="flex col-span-2 items-center gap-10 mb-10 lg:mb-0 md:gap-36">
+            {LINKS.map(({ title, items }) => (
+              <ul key={title}>
+                <Typography variant="h6" color="blue-gray" className="mb-4">
+                  {title}
+                </Typography>
+                {LINKS[0].items.map(({ text, link }) => (
+                  <li key={text}>
+                    <Typography
+                      as="a"
+                      href={link}
+                      className="py-1 font-normal !text-gray-700 transition-colors hover:!text-gray-900"
+                    >
+                      {text}
+                    </Typography>
+                  </li>
+                ))}
+              </ul>
+            ))}
+          </div>
         </div>
-    );
+        <Typography
+          color="blue-gray"
+          className="md:text-center mt-16 font-normal !text-gray-700"
+        >
+          &copy; {CURRENT_YEAR} Desenvolvido {" "}
+          by{" "}
+          <a href="#crapestack">
+            GrapeStack
+          </a>
+          .
+        </Typography>
+      </div>
+    </footer>
+  );
 }
+
+export default Footer;
