@@ -284,13 +284,13 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 98587:
+/***/ 13433:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 89222, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 78301, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 83751, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 54765, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 83751, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 5192, 23))
 
 /***/ }),
@@ -302,14 +302,14 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 
 /***/ }),
 
-/***/ 59993:
+/***/ 31356:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 24438));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 75124));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 44980));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 60716));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 73243));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 75124))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 24438));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 60716))
 
 /***/ }),
 
@@ -626,9 +626,9 @@ function Pricing() {
 
 "use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "P": () => (/* binding */ CourseCard),
 /* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* unused harmony export CourseCard */
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56786);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _material_tailwind_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(18714);
@@ -699,13 +699,13 @@ __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "BackgroundCard": () => (/* reexport */ BackgroundCard),
-  "CourseCard": () => (/* reexport */ course_card/* CourseCard */.P),
-  "FeatureCard": () => (/* reexport */ FeatureCard),
+  "BackgroundCard": () => (/* reexport */ background_card),
+  "CourseCard": () => (/* reexport */ course_card/* default */.Z),
+  "FeatureCard": () => (/* reexport */ feature_card),
   "FixedPlugin": () => (/* reexport */ FixedPlugin),
-  "Footer": () => (/* reexport */ Footer),
-  "Layout": () => (/* reexport */ Layout),
-  "Navbar": () => (/* reexport */ Navbar)
+  "Footer": () => (/* reexport */ footer),
+  "Layout": () => (/* reexport */ layout),
+  "Navbar": () => (/* reexport */ navbar)
 });
 
 // EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
@@ -866,7 +866,7 @@ function Navbar() {
         ]
     }));
 }
-/* harmony default export */ const navbar = ((/* unused pure expression or super */ null && (Navbar)));
+/* harmony default export */ const navbar = (Navbar);
 
 ;// CONCATENATED MODULE: ./src/components/footer.tsx
 
@@ -946,7 +946,7 @@ function Footer() {
         })
     });
 }
-/* harmony default export */ const footer = ((/* unused pure expression or super */ null && (Footer)));
+/* harmony default export */ const footer = (Footer);
 
 ;// CONCATENATED MODULE: ./src/components/layout.tsx
 /* __next_internal_client_entry_do_not_use__ Layout auto */ 
@@ -957,7 +957,7 @@ function Layout({ children  }) {
         children: children
     });
 }
-/* harmony default export */ const layout = ((/* unused pure expression or super */ null && (Layout)));
+/* harmony default export */ const layout = (Layout);
 
 ;// CONCATENATED MODULE: ./src/components/background-card.tsx
 
@@ -983,7 +983,7 @@ function BackgroundCard({ title , children  }) {
         })
     });
 }
-/* harmony default export */ const background_card = ((/* unused pure expression or super */ null && (BackgroundCard)));
+/* harmony default export */ const background_card = (BackgroundCard);
 
 // EXTERNAL MODULE: ./src/components/course-card.tsx
 var course_card = __webpack_require__(89159);
@@ -1019,13 +1019,13 @@ function FeatureCard({ icon: Icon , title , children  }) {
         })
     }));
 }
-/* harmony default export */ const feature_card = ((/* unused pure expression or super */ null && (FeatureCard)));
+/* harmony default export */ const feature_card = (FeatureCard);
 
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(48421);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 ;// CONCATENATED MODULE: ./src/components/fixed-plugin.tsx
-/* __next_internal_client_entry_do_not_use__ FixedPlugin auto */ 
+/* __next_internal_client_entry_do_not_use__ default auto */ 
 
 
 function FixedPlugin() {
@@ -1051,8 +1051,7 @@ function FixedPlugin() {
 }
 
 ;// CONCATENATED MODULE: ./src/components/index.ts
-/* __next_internal_client_entry_do_not_use__ *,*,*,*,*,*,*,* auto */ 
-
+/* __next_internal_client_entry_do_not_use__ Navbar,Footer,Layout,BackgroundCard,CourseCard,FeatureCard,FixedPlugin auto */ 
 
 
 
@@ -1088,7 +1087,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(75553);
 /* harmony import */ var _globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_globals_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(29554);
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_components__WEBPACK_IMPORTED_MODULE_2__);
 
 
 
@@ -1118,10 +1116,10 @@ function RootLayout({ children  }) {
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("body", {
                 className: (next_font_google_target_css_path_src_app_layout_tsx_import_Roboto_arguments_subsets_latin_weight_300_400_500_700_900_display_swap_variableName_roboto___WEBPACK_IMPORTED_MODULE_3___default().className),
                 children: [
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components__WEBPACK_IMPORTED_MODULE_2__.Layout, {
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components__WEBPACK_IMPORTED_MODULE_2__/* .Layout */ .Ar, {
                         children: [
                             children,
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components__WEBPACK_IMPORTED_MODULE_2__.FixedPlugin, {})
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components__WEBPACK_IMPORTED_MODULE_2__/* .FixedPlugin */ .NQ, {})
                         ]
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
@@ -1212,12 +1210,12 @@ const other_courses_e0 = other_courses_proxy["OtherCourses"];
 function Campaign() {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
-            /*#__PURE__*/ jsx_runtime_.jsx(components.Navbar, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(components/* Navbar */.wp, {}),
             /*#__PURE__*/ jsx_runtime_.jsx((hero_default()), {}),
             /*#__PURE__*/ jsx_runtime_.jsx(online_course, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(other_courses, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(pricing, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(components.Footer, {})
+            /*#__PURE__*/ jsx_runtime_.jsx(components/* Footer */.$_, {})
         ]
     });
 }
@@ -1226,10 +1224,40 @@ function Campaign() {
 /***/ }),
 
 /***/ 29554:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-/* __next_internal_client_entry_do_not_use__ *,*,*,*,*,*,*,* auto */ const { createProxy  } = __webpack_require__(35985);
-module.exports = createProxy("C:\\Users\\WillBayers\\Desktop\\landing-page-cavallcante-desentupidora\\src\\components\\index.ts");
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "$_": () => (/* binding */ e1),
+/* harmony export */   "Ar": () => (/* binding */ e2),
+/* harmony export */   "NQ": () => (/* binding */ e6),
+/* harmony export */   "wp": () => (/* binding */ e0)
+/* harmony export */ });
+/* unused harmony exports __esModule, $$typeof, BackgroundCard, CourseCard, FeatureCard */
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(35985);
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\WillBayers\Desktop\landing-page-cavallcante-desentupidora\src\components\index.ts`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+/* unused harmony default export */ var __WEBPACK_DEFAULT_EXPORT__ = (proxy.default);
+
+const e0 = proxy["Navbar"];
+
+const e1 = proxy["Footer"];
+
+const e2 = proxy["Layout"];
+
+const e3 = proxy["BackgroundCard"];
+
+const e4 = proxy["CourseCard"];
+
+const e5 = proxy["FeatureCard"];
+
+const e6 = proxy["FixedPlugin"];
 
 
 /***/ }),
