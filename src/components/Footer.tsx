@@ -1,4 +1,4 @@
-import { Typography, Button, Input } from "@material-tailwind/react";
+import { Typography } from "@material-tailwind/react";
 
 const LINKS = [
   {
@@ -55,5 +55,3 @@ export function Footer() {
     </footer>
   );
 }
-
-export default Footer;
