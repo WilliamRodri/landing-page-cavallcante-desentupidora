@@ -55,6 +55,7 @@ export function Navbar() {
   }, []);
 
   return (
+    // @ts-expect-error Tipagem quebrada na lib
     <MTNavbar
       fullWidth
       shadow={false}
@@ -78,11 +79,13 @@ export function Navbar() {
         </ul>
         <div className="hidden gap-2 lg:flex">
           <a href="tel:+5585985477461" target="_blank">
+            {/* @ts-expect-error Tipagem quebrada na lib */}
             <Button color={isScrolling ? "gray" : "white"} size="sm">
               Ligue agora
             </Button>
           </a>
         </div>
+        {/* @ts-expect-error Tipagem quebrada na lib */}
         <IconButton
           variant="text"
           color={isScrolling ? "gray" : "white"}
@@ -107,6 +110,7 @@ export function Navbar() {
           </ul>
           <div className="mt-4 flex gap-2">
             <a href="tel:+5585985477461" target="_blank">
+              {/* @ts-expect-error Tipagem quebrada na lib */}
               <Button color="gray" size="sm" className="ml-auto">
                 Ligue Agora
               </Button>

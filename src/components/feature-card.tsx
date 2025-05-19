@@ -12,7 +12,9 @@ interface FeatureCardProps {
 }
 export function FeatureCard({ icon: Icon, title, children }: FeatureCardProps) {
   return (
+    // @ts-expect-error Tipagem quebrada na lib
     <Card color="transparent" shadow={false}>
+      {/* @ts-expect-error Tipagem quebrada na lib */}
       <CardBody className="grid place-items-start px-0">
         <div className="mb-3 grid place-content-center rounded-lg text-left text-blue-gray-900">
           <Icon className="h-6 w-6" />

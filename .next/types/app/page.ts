@@ -1,4 +1,4 @@
-// File: C:\Users\WillBayers\Desktop\nextjs-tailwind-course-details-page-main\src\app\page.tsx
+// File: C:\Users\WillBayers\Desktop\landing-page-cavallcante-desentupidora\src\app\page.tsx
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

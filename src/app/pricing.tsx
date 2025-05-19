@@ -11,7 +11,9 @@ export function Pricing() {
             Principais dúvidas
           </Typography>
         </div>
+        {/* @ts-expect-error Tipagem quebrada na lib */}
         <Card className="px-6 pb-5">
+          {/* @ts-expect-error Tipagem quebrada na lib */}
           <CardBody>
             <Typography variant="h3" color="blue-gray">
               Posso usar produtos químicos para desentupir canos?
@@ -27,6 +29,7 @@ export function Pricing() {
               </div>
             </div>
           </CardBody>
+          {/* @ts-expect-error Tipagem quebrada na lib */}
           <CardBody>
             <Typography variant="h3" color="blue-gray">
               Quanto tempo leva para desentupir um encanamento?
@@ -42,6 +45,7 @@ export function Pricing() {
               </div>
             </div>
           </CardBody>
+          {/* @ts-expect-error Tipagem quebrada na lib */}
           <CardBody>
             <Typography variant="h3" color="blue-gray">
               Quanto é o custo médio de serviços de desentupimento?
