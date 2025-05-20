@@ -23,6 +23,14 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11561272708"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'AW-11561272708');
+        </script>
         <script
           defer
           data-site="desentupidoracavalcante.com.br"
