@@ -65,7 +65,7 @@ export function Navbar() {
     >
       <div className="container mx-auto flex items-center justify-between">
         <Typography variant="h6" color={isScrolling ? "blue-gray" : "white"}>
-          Desentupidora Cavalcante
+          Limpa Fossa Cavalcante
         </Typography>
         <ul
           className={`ml-10 hidden items-center gap-6 lg:flex ${
