@@ -11,7 +11,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Desentupidora Cavalcante",
+  title: "Limpa Fossa Cavalcante",
   description:
     "Resolvendo seu problema da melhor forma!",
 };
