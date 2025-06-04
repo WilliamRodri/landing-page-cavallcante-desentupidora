@@ -14,14 +14,14 @@ function Hero() {
           color="white"
           className="md:max-w-full lg:max-w-3xl"
         >
-          Desentupidora Cavalcante
+          Limpa Fossa Cavalcante
         </Typography>
         <Typography
           variant="lead"
           color="white"
           className="mt-6 mb-10 w-full md:max-w-full lg:max-w-3xl"
         >
-          Desentupidora e Limpa Fossa. Desentupimento em geral. Ralos, pias, sanitários, Caixa de gordura e visita.
+          Limpa Fossa Cavalcante. Desentupimento em geral. Ralos, pias, sanitários, Caixa de gordura e visita.
         </Typography>
         <div>
           <a target="_blank" href="https://api.whatsapp.com/send?phone=5585985477461&text=Ol%C3%A1%20vim%20pelo%20site%20e%20desejo%20fazer%20um%20or%C3%A7amento!">
