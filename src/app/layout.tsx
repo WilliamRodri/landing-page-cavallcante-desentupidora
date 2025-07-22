@@ -34,6 +34,7 @@ export default function RootLayout({
           strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=AW-11561272708"
         />
+        
         <Script
           id="google-gtag"
           strategy="afterInteractive"
@@ -43,6 +44,18 @@ export default function RootLayout({
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', 'AW-11561272708');
+            `,
+          }}
+        />
+
+        <Script
+          id="google-ads-pageview-conversion"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              gtag('event', 'conversion', {
+                'send_to': 'AW-11561272708/p6AiCMDmgocaEISL7Igr'
+              });
             `,
           }}
         />
