@@ -47,6 +47,19 @@ export default function RootLayout({
             `,
           }}
         />
+        <Script
+          id="google-gtag-action-view-conversion"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              gtag('event', 'conversion', {
+                'send_to': 'AW-11561272708/bzOnCP_ZioobEISL7Igr',
+                'value': 1.0,
+                'currency': 'BRL'
+              });
+            `,
+          }}
+        />
 
         <Script
           id="google-ads-pageview-conversion"
