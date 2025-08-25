@@ -1,1 +1,14 @@
-self.__RSC_CSS_MANIFEST={"cssImports":{"C:\\Users\\WillBayers\\Desktop\\landing-page-cavallcante-desentupidora\\src\\app\\layout.tsx":["C:\\Users\\WillBayers\\Desktop\\landing-page-cavallcante-desentupidora\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.tsx\",\"import\":\"Roboto\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"300\",\"400\",\"500\",\"700\",\"900\"],\"display\":\"swap\"}],\"variableName\":\"roboto\"}","C:\\Users\\WillBayers\\Desktop\\landing-page-cavallcante-desentupidora\\src\\app\\globals.css"]},"cssModules":{"C:\\Users\\WillBayers\\Desktop\\landing-page-cavallcante-desentupidora\\src\\app\\page":["C:\\Users\\WillBayers\\Desktop\\landing-page-cavallcante-desentupidora\\src\\app\\globals.css","C:\\Users\\WillBayers\\Desktop\\landing-page-cavallcante-desentupidora\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.tsx\",\"import\":\"Roboto\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"300\",\"400\",\"500\",\"700\",\"900\"],\"display\":\"swap\"}],\"variableName\":\"roboto\"}"]}}
+self.__RSC_CSS_MANIFEST={
+  "cssImports": {
+    "C:\\Users\\WillBayers\\Desktop\\landing-page-cavallcante-desentupidora\\src\\app\\layout.tsx": [
+      "C:\\Users\\WillBayers\\Desktop\\landing-page-cavallcante-desentupidora\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.tsx\",\"import\":\"Roboto\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"300\",\"400\",\"500\",\"700\",\"900\"],\"display\":\"swap\"}],\"variableName\":\"roboto\"}",
+      "C:\\Users\\WillBayers\\Desktop\\landing-page-cavallcante-desentupidora\\src\\app\\globals.css"
+    ]
+  },
+  "cssModules": {
+    "C:\\Users\\WillBayers\\Desktop\\landing-page-cavallcante-desentupidora\\src\\app\\page": [
+      "C:\\Users\\WillBayers\\Desktop\\landing-page-cavallcante-desentupidora\\src\\app\\globals.css",
+      "C:\\Users\\WillBayers\\Desktop\\landing-page-cavallcante-desentupidora\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.tsx\",\"import\":\"Roboto\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"300\",\"400\",\"500\",\"700\",\"900\"],\"display\":\"swap\"}],\"variableName\":\"roboto\"}"
+    ]
+  }
+}

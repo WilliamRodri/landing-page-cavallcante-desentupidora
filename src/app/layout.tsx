@@ -11,9 +11,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Limpa Fossa Cavalcante",
+  title: "Desentupidora Cavalcante - Limpa Fossa em Fortaleza",
   description:
-    "Resolvendo seu problema da melhor forma!",
+    "Entupiu? Já Chama nós!",
 };
 
 export default function RootLayout({

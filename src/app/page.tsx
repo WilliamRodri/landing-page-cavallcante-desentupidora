@@ -12,8 +12,8 @@ export default function Campaign() {
     <>
       <Navbar />
       <Hero />
-      <OnlineCourse />
       <OtherCourses />
+      <OnlineCourse />
       <Pricing />
     </>
   );

@@ -32,7 +32,7 @@ export function CourseCard({ img, title, desc, buttonLabel, link }: CourseCardPr
         </Typography>
         <a href={link} target="_blank">
           {/* @ts-expect-error Tipagem quebrada na lib */}
-          <Button color="gray" size="sm">
+          <Button style={{ backgroundColor: "#25D366" }} size="sm">
             {buttonLabel}
           </Button>
         </a>

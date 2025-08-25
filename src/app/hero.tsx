@@ -1,39 +1,42 @@
 "use client";
 
-import { Typography, Button } from "@material-tailwind/react";
-
+import { Button } from "@material-tailwind/react";
 
 function Hero() {
   return (
-    <div className="relative min-h-screen w-full bg-[url('/image/course.png')] bg-cover bg-no-repeat">
-    <div className="absolute inset-0 h-full w-full bg-gray-900/60" />
-    <div className="grid min-h-screen px-8">
-      <div className="container relative z-10 my-auto mx-auto grid place-items-center text-center">
-        <Typography
-          variant="h1"
-          color="white"
-          className="md:max-w-full lg:max-w-3xl"
+    <div className="relative w-full">
+      {/* Imagem Desktop */}
+      <img
+        src="/image/course.png"
+        alt="Limpa Fossa Cavalcante"
+        className="hidden w-full object-cover md:block"
+      />
+      {/* Imagem Mobile */}
+      <img
+        src="/image/course-mobile.jpg"
+        alt="Limpa Fossa Cavalcante"
+        className="block w-full object-cover md:hidden"
+      />
+
+      {/* Conteúdo com botão embaixo */}
+      <div className="absolute inset-0 flex flex-col justify-end items-center px-4 pb-10 text-center">
+        <a
+          href="https://api.whatsapp.com/send?phone=5585985477461&text=Ol%C3%A1%20vim%20pelo%20site%20e%20desejo%20fazer%20um%20or%C3%A7amento!"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          Limpa Fossa Cavalcante
-        </Typography>
-        <Typography
-          variant="lead"
-          color="white"
-          className="mt-6 mb-10 w-full md:max-w-full lg:max-w-3xl"
-        >
-          Limpa Fossa Cavalcante. Desentupimento em geral. Ralos, pias, sanitários, Caixa de gordura e visita.
-        </Typography>
-        <div>
-          <a target="_blank" href="https://api.whatsapp.com/send?phone=5585985477461&text=Ol%C3%A1%20vim%20pelo%20site%20e%20desejo%20fazer%20um%20or%C3%A7amento!">
-            {/* @ts-expect-error Tipagem quebrada na lib */}
-            <Button variant="gradient" color="white">
-              Entre em contato conosco
-            </Button>
-          </a>
-        </div>
+          {/* @ts-expect-error Tipagem quebrada na lib */}
+          <Button
+            style={{ backgroundColor: "#25D366" }}
+            size="sm"
+            className="z-10"
+          >
+            Entre em contato conosco
+          </Button>
+        </a>
       </div>
     </div>
-  </div>
   );
 }
+
 export default Hero;

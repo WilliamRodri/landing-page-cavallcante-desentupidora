@@ -23,7 +23,8 @@ export function OnlineCourse() {
           </Typography>
           <Typography
             variant="lead"
-            className="mb-5 max-w-lg px-4 text-left text-lg !text-gray-500 lg:px-0  "
+            color="black"
+            className="mb-5 max-w-lg px-4 text-left text-lg lg:px-0  "
           >
             O nosso objetivo é executar os serviços com qualidade, garantia e agilidade, a Cavallcante tem como principal diferença a qualidade e o compromisso com seus clientes.
           </Typography>

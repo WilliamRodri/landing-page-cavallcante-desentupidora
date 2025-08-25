@@ -22,7 +22,8 @@ export function Pricing() {
               <div>
                 <Typography
                   variant="paragraph"
-                  className="mb-10 mt-2 w-full font-normal !text-gray-500"
+                  color="black"
+                  className="mb-10 mt-2 w-full font-normal"
                 >
                   O uso de produtos químicos agressivos pode ser prejudicial às tubulações e ao meio ambiente. É recomendável evitar esses produtos e, em vez disso, contar com profissionais especializados em desentupimento, que utilizam métodos mais seguros e eficazes.
                 </Typography>
@@ -38,7 +39,8 @@ export function Pricing() {
               <div>
                 <Typography
                   variant="paragraph"
-                  className="mb-10 mt-2 w-full font-normal !text-gray-500"
+                  color="black"
+                  className="mb-10 mt-2 w-full font-normal"
                 >
                   O tempo necessário para desentupir um encanamento varia dependendo da gravidade do entupimento e do método utilizado. Alguns entupimentos podem ser resolvidos em questão de minutos, enquanto outros podem levar mais tempo. É melhor consultar um profissional para avaliar e estimar o tempo necessário.
                 </Typography>
@@ -54,7 +56,8 @@ export function Pricing() {
               <div>
                 <Typography
                   variant="paragraph"
-                  className="mb-10 mt-2 w-full font-normal !text-gray-500"
+                  color="black"
+                  className="mb-10 mt-2 w-full font-normal"
                 >
                   O custo de serviços de desentupimento pode variar amplamente de acordo com a extensão, gravidade do entupimento e o método utilizado. Solicite um orçamento sem compromisso, para obter uma estimativa precisa.
                 </Typography>
