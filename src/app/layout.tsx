@@ -30,7 +30,48 @@ export default function RootLayout({
           src="https://api.nepcha.com/js/nepcha-analytics.js"
         ></script>
         <link rel="shortcut icon" href="/image/favicon.png" type="image/png" />
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-11561272708"
+        />
         
+        <Script
+          id="google-gtag"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-11561272708');
+            `,
+          }}
+        />
+        <Script
+          id="google-gtag-action-view-conversion"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              gtag('event', 'conversion', {
+                'send_to': 'AW-11561272708/bzOnCP_ZioobEISL7Igr',
+                'value': 1.0,
+                'currency': 'BRL'
+              });
+            `,
+          }}
+        />
+
+        <Script
+          id="google-ads-pageview-conversion"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              gtag('event', 'conversion', {
+                'send_to': 'AW-11561272708/p6AiCMDmgocaEISL7Igr'
+              });
+            `,
+          }}
+        />
       </head>
       <body className={roboto.className}>
         <Layout>
