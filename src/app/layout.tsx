@@ -27,7 +27,7 @@ export default function RootLayout({
       <head>
         <script
           defer
-          data-site="desentupidoracavalcante.com.br"
+          data-site="desentupidoracavallcante.com.br"
           src="https://api.nepcha.com/js/nepcha-analytics.js"
         ></script>
         <link rel="shortcut icon" href="/image/favicon.png" type="image/png" />
